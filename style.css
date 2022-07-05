@@ -10,6 +10,12 @@ body, html {
     /* background: gray; */
     color: #fff;
 }
+main {
+    position: relative;
+    opacity: 0;
+    filter: blur(10px);
+    transition: opacity 2s ease-in-out, filter 2s ease-in-out;
+}
 body {
     background: url(./img/bg01.jpg) repeat center center fixed;
     background-size: cover;
@@ -47,6 +53,7 @@ ul {
     list-style: none;
     margin: 0 auto;
     padding: 2em;
+    max-width: 480px;
 }
 
 ul > li {
@@ -65,6 +72,15 @@ ul > li > a  {
     justify-content: center;
     align-items: center;
     gap: 0.5em;
+}
+#Vanta {
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
 
 a {
