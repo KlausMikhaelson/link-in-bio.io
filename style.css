@@ -11,7 +11,7 @@ body, html {
     color: #fff;
 }
 body {
-    background: url(./assets/bg01.jpg) repeat center center fixed;
+    background: url(./img/bg01.jpg) repeat center center fixed;
     background-size: cover;
 }
 
